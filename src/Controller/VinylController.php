@@ -18,7 +18,7 @@ class VinylController extends AbstractController{
                 ['song' => 'I\'m gonna make a bean out of you', 'artist' => 'Unbean'],
                 ['song' => "It's looking like a white Christmas", 'artist' => 'Michael Beanly'],
             ];
-            
+                   
         return $this->render('vinyl/homepage.html.twig', [
                 'title' => "PB and Jams",
                 'tracks' => $tracks,
